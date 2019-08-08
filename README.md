@@ -1,5 +1,6 @@
 # mern-stack-auth-app
 <h2>Full Stack Authorization App using MongoDB, Express, React/Redux, and Node.</h2>
+<a href="https://mern-stack-auth-app.herokuapp.com/">https://mern-stack-auth-app.herokuapp.com/</a>
 
 <strong>Technologies Used:</strong>
  - React
@@ -22,3 +23,7 @@
 
 <strong>To Do:</strong>
  - Replace componentWillReceiveProps in auth components
+ - Add profile image
+ - Add profile page
+ - Allow for editing name and updating password from profile page
+ - Show all info on dashboard

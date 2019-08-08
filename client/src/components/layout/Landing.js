@@ -6,14 +6,12 @@ class Landing extends Component {
       <div style={{ height: "75vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
-            <h4>
-              <strong>Build</strong> a login/auth app with the{" "}
-              <span style={{ fontFamily: "monospace" }}>MERN</span> stack from
-              scratch
-            </h4>
-            <p className="flow-text grey-text text-darken-1">
-              Create a (minimal) full-stack app with user authentication via
-              passport and JWTs
+            <h4>The answer to Life, the Universe, and Everything is...</h4>
+            <p className="flow-text red-text text-darken-1">
+              <em>
+                Error: Unauthorized - please login or register to receive the
+                answer.
+              </em>
             </p>
             <br />
             <div className="col s6">
@@ -37,7 +35,7 @@ class Landing extends Component {
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
                 }}
-                className="btn btn-large btn-flat waves-effect white black-text"
+                className="btn btn-large btn-flat waves-effect green white-text"
               >
                 Log In
               </Link>
