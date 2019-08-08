@@ -16,7 +16,7 @@ class Dashboard extends Component {
       <div style={{ height: "75vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
-            <h1>The answer is...42</h1>
+            <h1>{user.name.split(" ")[0]}, the answer is...42</h1>
             <button
               style={{
                 width: "150px",
